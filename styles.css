@@ -1,0 +1,167 @@
+
+.main{
+    max-width: 1116px;
+    margin: auto;
+}
+.formmain{
+    padding: 0 10%;
+}
+.registrationHeader{
+    height: 200px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+   
+}
+.headerBottom{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.logoDiv{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.registrationHeader::before{
+    background-image: url("./pictures/headerImage.avif");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: " ";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 200px;
+    opacity: 0.1;
+
+}
+.SaylaniLogo{
+    margin-bottom: 20px;
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 15px;
+    margin-top: 10px;
+}
+.colom{
+    flex-grow: 1;
+}
+.colom input{
+    width: 100%;
+    box-sizing: border-box;
+    height: 47px;
+    border: 1px solid #8dc63f!important;
+    border-radius: 5px;
+    color: #666;
+    padding: 15px!important;
+
+    /* box-shadow: 0 0 0 2px rgba(24,144,255,.2); */
+}
+.colom select{
+    width: 100%;
+    box-sizing: border-box;
+    height: 47px;
+    border: 1px solid #8dc63f!important;
+    border-radius: 5px;
+    color: #666;
+    padding: 15px!important;
+
+}
+.row label{
+    color: #0d6db7!important;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+}
+
+.buttonPortal{
+    background-color: initial;
+    border-color: #0d6db7;
+    color: #0d6db7;
+    border-radius: 20px;
+    font-size: 14px;
+    width: 130px;
+    height: 32px;
+}
+.instruction{
+}
+.instruction ol li{
+    margin-top: 10px;
+}
+.line{
+    width: 100%;
+    border-top: 1px solid rgba(0,0,0,.06);
+    margin: 40px 0;
+
+}
+.instruction ol{
+    padding-left: 0;
+}
+.Submitbtn{
+    width: 100%;
+    align-items: center;
+    background-color: #0d6db7;
+    border: none;
+    font-size: 14px!important;
+    outline: none;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 5px;
+    height: 40px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.upload-file{
+    height: 112px;
+    background-color: rgb(250 250 250);
+    width: 105px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border: 0.5px dashed #adadad;
+    cursor: pointer;
+}
+.upload-file:hover{
+    border-color: blue;
+}
+
+.upload-file label {
+    font-size: 12px;
+}
+.pictureinstruction ul li{
+    list-style: none;
+    color: #666;
+    font-size: 12px;
+    margin-top: 4px;
+}
+.pictureinstruction ul{
+    padding-left: 10px;
+   
+}
+.pictureDiv{
+    display: flex;
+}
+.pictureText{
+    color: #0d6db7!important;
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    list-style: none;
+    
+
+}
+.picturemain{
+    margin-top: 15px;
+}
